@@ -1,0 +1,2 @@
+# fastpai-practice
+Practicing fastapi
