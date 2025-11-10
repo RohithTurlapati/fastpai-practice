@@ -1,0 +1,13 @@
+from fastapi import FastAPI
+from web import creature, explorer
+import uvicorn
+
+
+app = FastAPI()
+
+app.include_router(creature.router)
+app.include_router(explorer.router)
+
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", reload=True)
