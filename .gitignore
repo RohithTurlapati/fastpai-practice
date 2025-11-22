@@ -13,3 +13,4 @@ ENV/
 # Cache files and directories
 __pycache__/
 *.pyc
+.pytest_cache/
